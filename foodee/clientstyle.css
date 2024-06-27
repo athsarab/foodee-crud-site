@@ -1,0 +1,144 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("recipeimages/pasta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: scroll;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation bar */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  margin-left: 30px;
+  font-family: Lucida Sans Typewriter;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Footer */
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* Search box */
+.search-box {
+  background-color: #bdbdbdd0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.search-box form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box label {
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.search-box input[type="text"], .search-box input[type="submit"] {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 10px;
+}
+
+.search-box input[type="submit"] {
+  background-color: #3b3157;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-box input[type="submit"]:hover {
+  background-color: #1b083a;
+}
+
+/* Table styles */
+table {
+  background: linear-gradient(90deg, transparent, #fff);
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+}
+
+
+
+table th {
+  font-size: 20px;
+   background-color: #60707a;
+   font-weight: bold;
+}
+
+.title-box {
+  background-color: #007bff; /* Background color */
+  padding: 20px; /* Padding around the title */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  width: 80%; /* Width of the box */
+  margin: 0 auto; /* Center the box horizontally */
+  text-align: center; /* Center align the title */
+  margin-bottom: 30px; /* Space below the box */
+}
+
+.btn1-more {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #62676b94; /* Button background color */
+  color: white; /* Button text color */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.btn1-more:hover {
+  background-color: #3334359d; /* Darker background color on hover */
+}

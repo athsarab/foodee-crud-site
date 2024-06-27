@@ -1,0 +1,120 @@
+body {
+    font-family: "Montserrat", sans-serif;
+        
+  background-repeat: no-repeat;
+background-position: center;
+overflow: scroll;
+  background: #919191;
+   
+  }
+  
+@media (min-width: 480px) {
+  /*CSS for medium width screens*/
+}
+
+@media (min-width: 800px) {
+  /*CSS for wide screens*/
+}
+
+@media (min-width: 1100px) {
+  /*CSS for really wide screens*/
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Navigation bar */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  margin-left: 30px;
+  font-family:Lucida Sans Typewriter;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*footer*/
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+ /* image grid */
+  
+ .image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-grid img {
+  width: 100%;
+  height:100%;
+  height: 230px;
+  border-radius: 8px;
+  border: 2px solid #120392; /* Border color and thickness */
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a card-like effect */
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+  border-color: #00011f; /* Border color change on hover */
+}
+
+
+/* Optional: Add some shadow for a card-like effect */
+.image-grid img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Center images */
+.image-grid {
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-title {
+  text-align: center;
+  padding:20px;
+  color: #ffffff;
+  font-size: 44px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.397); /* Optional text shadow for depth */
+}

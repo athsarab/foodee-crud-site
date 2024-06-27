@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+    <style>
+        /* Reset some default browser styles */
+        body, h1, h2, h3, ul, li, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            background-repeat: no-repeat;
+            background-position: center;
+            overflow: scroll;
+            background-image: linear-gradient(to bottom, rgb(128, 128, 128) 0%, rgb(31, 31, 31) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            position: absolute;
+            top: 0;
+        }
+
+        .logo a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 25px ;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        /* Vertical menu styles */
+        .vertical-menu {
+            background-color: #ffffffcb;
+            width: 400px;
+            height:300px;
+            padding: 25px 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 1; /* Ensure the menu is above the header */
+        }
+
+        .vertical-menu a {
+            display: block;
+            width:200px;
+            padding: 25px 30px;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .vertical-menu a:hover {
+            background-color: #919191;
+            color: #555;
+        }
+
+        /* Logout button */
+        .logout-btn {
+            background-color: #f44336;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 15px;
+            margin-top: 60px;
+            display: block;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            padding: 15px 20px;
+        }
+
+        .logout-btn:hover {
+            background-color: #d32f2f;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: 20px;
+           
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 18px;
+        }
+
+    </style>
+	</head>
+<body>
+<header>
+    <div class="logo"><a href="index.html">Home</a></div>
+    <nav>
+        <ul>
+            <li><a href="admin.html"> Welcome Admin</a></li>
+        </ul>
+    </div>
+    </nav>
+</header>
+<br><br><br><br><br><br><br><br>
+
+	<div class="vertical-menu">
+  <a href="authors.html">Add Chefs</a>
+  <a href="displayauthors.php" style="text-decoration:none ;">Display Chefs</a>
+  <a href="login-user.php" onClick="alertpop()" class="logout-btn">Logout</a>
+  <script>
+        function alertpop() {
+            alert("Successfully Logged out");
+
+        }
+    </script>
+  
+  </div>
+
+  <br><br><br><br><br><br>
+
+<footer>
+<p>At Deli-licious,Where We Strive For More</p>
+</footer>
+</body>
+</html>

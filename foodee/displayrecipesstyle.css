@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-image: linear-gradient(to bottom, rgb(128, 128, 128) 0%, rgb(31, 31, 31) 100%);
+  
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+
+margin-top: 20px;
+background-color: #ffffff; /* Table background color */
+border-radius: 8px; /* Rounded corners for the table */
+overflow: hidden; /* Hide overflowing content */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+th, td {
+padding: 15px; /* Increase padding for better spacing */
+text-align: left;
+border-bottom: 1px solid #ddd;
+border-top: 1px solid black; /* Top border color */
+border-bottom: 1px solid black; /* Bottom border color */
+border-right: 1px solid black; 
+}
+
+th {
+background-color: #333366;
+color: white;
+}
+
+tr:hover {
+background-color: #f5f5f5;
+}
+
+tbody tr:nth-child(even) {
+background-color: #f9f9f9; /* Alternate row color */
+}
+
+tbody tr:hover {
+background-color: #e6e6e6; /* Highlight color on hover */
+}
+
+
+button {
+    font-size: 20px;;
+    background-color: #949494;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logout-link {
+    float: right;
+    margin-top: 5px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.logout-link a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3b3b3b;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.logout-link a:hover {
+    background-color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logout-link a:focus {
+    outline: none;
+}
+
+.logout-link a:active {
+    transform: translateY(0);
+    box-shadow: none;
+}

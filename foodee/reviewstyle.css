@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+      
+    background-repeat: no-repeat;
+  background-position: center;
+  overflow: scroll;
+    background-image: url("recipeimages/pasta.jpg");
+     
+    
+    
+  }
+  
+  /* Navigation bar */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 30px;
+    font-family:Lucida Sans Typewriter;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /*footer*/
+  
+  #footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* reciepe*/
+
+#page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#content-wrap {
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px;
+}
+h2 {
+    color: #dda50a; /* A nice yellow accent for headings */
+    font-size: 40px;
+}
+p {
+    line-height: 1.6;
+    font-size: 15px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+form {
+    margin-top: 20px;
+}
+input[type="submit"] {
+    background-color: #ffc400;
+    border: none;
+    color: white;
+    color:#000;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="submit"]:hover {
+    background-color: #cfa51a;
+}

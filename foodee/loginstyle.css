@@ -1,0 +1,158 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  
+    
+  background-repeat: no-repeat;
+background-position: center;
+overflow: scroll;
+  background-image: url("recipeimages/pasta.jpg");
+   
+  
+  
+}
+
+/* Navigation bar */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  margin-left: 30px;
+  font-family:Lucida Sans Typewriter;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*footer*/
+
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/*Login form*/
+
+#page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(90vh - 70px);
+}
+
+.container {
+ 
+  border-radius: 10px;
+  width: 400px;
+  padding: 40px;
+  height:300px;
+  text-align: center;
+}
+.form {
+  background-color: #0000008e;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+  border-radius: 8px;
+ }
+ .form1 {
+  background-color: #b3b1b1b9;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+  border-radius: 8px;
+ }
+
+.login-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #e7e7e7;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.login-input {
+  width: 80%;
+  padding: 12px 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.login-input:focus {
+  border-color: #2d3bb8;
+  outline: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #626264;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #272627;
+}
+
+/* Font Awesome Icons */
+i.fas {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: #555;
+}
+
+/* Optional: Adjust icon size */
+i.fas.fa-user, i.fas.fa-lock {
+  font-size: 18px;
+}
+

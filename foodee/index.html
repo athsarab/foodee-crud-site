@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deli-licious</title>
+   
+    <style>
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+      
+    background-repeat: no-repeat;
+  background-position: center;
+  overflow: scroll;
+    background-image: url("recipeimages/pasta.jpg");
+     
+    
+    
+  }
+  
+  /* Navigation bar */
+  header {
+ 
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 30px;
+    font-family:Lucida Sans Typewriter;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /*footer*/
+  
+  #footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /*box*/
+
+
+  #page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    height:700px;
+    max-width: 900px;
+    width: 100%;
+}
+
+#head5 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.63);
+    padding: 30px;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#pic1 {
+    width: 300px;
+    border-radius: 8px;
+}
+
+#td1 {
+    flex-grow: 1;
+}
+
+#p2 {
+
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.button-container {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 20px;   /* Add some space at the top */
+}
+
+.button-container button {
+    background-color: #414141; /* Green background */
+    color: white;              /* White text color */
+    padding: 14px 20px;        /* Padding around text */
+    border: none;              /* Remove border */
+    border-radius: 4px;        /* Rounded corners */
+    cursor: pointer;           /* Cursor pointer on hover */
+    font-size: 20px;           /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Hover effect */
+.button-container button:hover {
+    background-color: #2b2b2b; /* Darker green on hover */
+}
+
+
+    </style>
+</head>
+<body onload="myFunction()">
+    <header>
+        <div class="logo"><a href="#">Deli-licious</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login-user.php">Admin Login</a></li>
+         
+                <li><a href="register.php">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="page-container">
+        <div id="content-wrap">
+            <h2 id="head5">Welcome to Deli-licious!</h2>
+            
+            <div class="content-box">
+                <div class="content-section">
+                    <img src="recipeimages/chef.jfif" id="pic1" alt="Chef Image">
+                    <div id="td1">
+                        <p id="p2">
+                            "Deli-licious is a user-friendly recipe management system designed to simplify your culinary journey. It allows you to effortlessly organize, discover, and share your favorite recipes. With intuitive features and a sleek interface, Deli-licious helps you plan meals, create shopping lists, and explore new flavors with ease."
+                        </p>
+                       
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button onclick="window.location.href='register.php';">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+        <footer id="footer">
+            <p>At Deli-licious,Where We Strive For More</p>
+        </footer>
+    </div>
+</body>
+</html>

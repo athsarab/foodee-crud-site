@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+      
+    background-repeat: no-repeat;
+  background-position: center;
+  overflow: scroll;
+    background-image: url("recipeimages/pasta.jpg");
+     
+    
+    
+  }
+ 
+  
+  /* Navigation bar */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 30px;
+    font-family:Lucida Sans Typewriter;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /*footer*/
+  
+  #footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /*contact us box*/
+  .contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f97c;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-subtitle {
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    display: grid;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item i {
+    font-size: 24px;
+    color: #03a34a;
+    margin-right: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+

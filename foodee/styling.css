@@ -1,0 +1,212 @@
+body {
+    font-family: "Montserrat", sans-serif;      
+  background-repeat: no-repeat;
+background-position: center;
+   
+  }
+  
+@media (min-width: 480px) {
+  /*CSS for medium width screens*/
+}
+
+@media (min-width: 800px) {
+  /*CSS for wide screens*/
+}
+
+@media (min-width: 1100px) {
+  /*CSS for really wide screens*/
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+  background-image: url("recipeimages/pasta.jpg");
+}
+
+.logo a {
+	text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color:#fff;
+    margin-left:10px;
+     font-family:Lucida Sans Typewriter;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+    margin-left: 3px;
+}
+li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    margin-left:80px;
+      font-family:Arial Black;
+
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;            /* Footer height */
+    background: linear-gradient(180deg,#313131,#384043 100%); 
+    background-image: url('pasta.jpg');
+    text-align:center;
+    font-size:21px;
+    font-family:Arial Black;
+    color:#fff;
+
+  background-repeat: no-repeat;
+background-position: center;
+}
+.btn{
+
+position: absolute;
+  background: lightgrey;
+  font-size: 20px;
+ 
+  color:black;
+border: solid;
+  padding:10 px 5px;
+  margin-top:30px;
+
+  cursor: pointer;
+  
+}
+#box{
+
+  width: 500px;
+
+  overflow: hidden;
+
+  background: black;
+
+  box-shadow: 0 0 10px black;
+
+  border-radius: 10px;
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 9999;
+
+  padding: 30px;
+
+  text-align: center;
+
+  display: none;
+
+}
+.btn{
+
+position: absolute;
+  background: lightgrey;
+  font-size: 20px;
+
+  color:black;
+border: solid;
+  padding:10 px 5px;
+  margin-top:30px;
+
+  cursor: pointer;
+  
+}
+.box1{
+
+  width: 500px;
+
+  overflow: hidden;
+
+  background: grey;
+
+  box-shadow: 0 0 10px black;
+
+  border-radius: 10px;
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 9999;
+
+  padding: 30px;
+
+  text-align: center;
+
+  display: none;
+
+}
+.vertical-menu {
+  width: 300px; /* Set a width if you like */
+  margin-left:500px;
+  margin-top:60px;
+  
+}
+
+.vertical-menu a {
+  background-color: lightgrey; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 15px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  text-align: center;
+  margin-top:25px;
+
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+#hea1{
+	font-size:20px;
+}
+#men{
+	margin-left:500px;
+	width:190px;
+
+
+}
+form{
+	padding:10px;
+	border-radius:10px;
+	border:solid;
+	margin-top:20px;
+}
+
+.forma{
+width:400px;
+margin-left:450px;
+}	
+.forma a {
+	text-align: center;
+}
+#forms{
+	width:500px;
+	margin-left:440px;
+}
+

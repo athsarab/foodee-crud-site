@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center; /* Aligns horizontally center */
+    background-repeat: no-repeat;
+  background-position: center;
+  overflow: scroll;
+    background-image: url("recipeimages/pasta.jpg");
+     
+    
+    
+  }
+  
+  
+  /* Navigation bar */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 30px;
+    font-family:Lucida Sans Typewriter;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /*footer*/
+  
+  #footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* feedback form*/
+
+  #page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    align-items: center;
+}
+#content-wrap {
+    margin-bottom: 20px;
+    align-items: center;
+}
+h2 {
+    color: #333;
+}
+p {
+    color: #666;
+    margin: 5px 0;
+}
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+    padding: 4px 6px;
+    margin-right: 8px;
+}
+a:hover {
+    text-decoration: underline;
+}
+label {
+    font-weight: bold;
+}
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+a.button {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+}
+a.button:hover {
+    background-color: #0056b3;
+}
+a.button.delete {
+    background-color: #dc3545;
+}
+a.button.delete:hover {
+    background-color: #c82333;
+}
+
+

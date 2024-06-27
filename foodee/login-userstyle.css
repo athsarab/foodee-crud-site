@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+      
+    background-repeat: no-repeat;
+  background-position: center;
+  overflow: scroll;
+    background-image: url("recipeimages/pasta.jpg");
+     
+    
+    
+  }
+  
+  /* Navigation bar */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 30px;
+    font-family:Lucida Sans Typewriter;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /*footer*/
+  
+  #footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /*Login form*/
+  #page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Full viewport height */
+   }
+
+#content-wrap {
+    background: linear-gradient(90deg, transparent, #03a34a);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .4);
+    width: 500px;
+    padding: 20px;
+}
+
+.login-box {
+    text-align: center;
+}
+
+.login-box h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.user-box {
+    width:90%;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+select.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.btn-login {
+    width: 100%;
+    height: 40px;
+    background-color: #5f6061; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #303030; /* Darker blue on hover */
+}
